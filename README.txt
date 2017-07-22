@@ -7,9 +7,7 @@ Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Multilingual Comments is an add-on for WPML / WooCommerce. This plugin makes it possible via its own plugin settings, to show
-- comments on blog posts in all languages
-- product reviews in all languages (also the average rating will be calculated as 1 total)
+Multilingual Comments is an add-on for WPML / WooCommerce. This plugin makes it possible via its own plugin settings, to show: comments on blog posts in all languages & product reviews in all languages (also the average rating will be calculated as 1 total)
 
 == Description == 
 
@@ -24,6 +22,6 @@ For example, if a WooCommerce product has
 the product will have 16 reviews, no matter which language is selected.
 
 == Changelog ==
-0.9.0
-=====
-- Initial release
+
+= 1.0 =
+* Initial release
