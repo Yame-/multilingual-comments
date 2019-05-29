@@ -194,6 +194,11 @@ class Multilingual_Comments_Public {
 		
 		$rating = 0;
 		$comments = get_comments();
+
+        if( count( $comments ) == 0 ){
+            return $rating;
+        }
+
 		foreach( $comments as $comment ){
 			
 			$rating += get_comment_meta( $comment->comment_ID, 'rating', true );
